@@ -1,11 +1,422 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>seojin portfolio</title>
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
-    <header>안녕</header>
+    <div id="wrap">
+        <header id="header" class="header">
+            <div class="inner">
+                <nav class="pc pc_gnb">
+                    <ul class="gnb">
+                        <li class="depth01">
+                            <a href="#">Main</a>
+                        </li> <!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">About</a>
+                        </li> <!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">Web/App</a>
+                        </li> <!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">Graphic</a>
+                        </li> <!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">Contact</a>
+                    </ul> <!-- .gnb end -->
+
+                    </li> <!-- .depth01 end -->
+                </nav> <!-- pc_gnb end -->
+
+                <button class="mobile mobile_btn">
+                    <img src="img/mobile_menu.png" alt="menu">
+                </button> <!-- .mobile_btn end -->
+
+                <nav class="mobile mobile_gnb">
+                    <ul class="gnb">
+                        <li class="depth01">
+                            <a href="#">Main</a>
+                        </li> <!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">About</a>
+                        </li> <!-- .depth01 end -->
+                        <li class="depth01">
+                            <a href="#">Web/App</a>
+                        </li> <!-- .depth01 end -->
+                    </ul> <!-- .gnb end -->
+                    <li class="depth01">
+                        <a href="#">Graphic</a>
+                    </li> <!-- .depth01 end -->
+                    <li class="depth01">
+                        <a href="#">Contact</a>
+                    </li> <!-- .depth01 end -->
+                </nav> <!-- mobile_gnb end -->
+
+            </div> <!-- .inner end -->
+        </header> <!-- .header end -->
+
+        <main id="main">
+            <section class="main_title">
+                <img src="img/main_bg_sky.jpg" alt="bg">
+                <div class="inner">
+                    <div class="title_img">
+                        <img src="img/title.png" alt="title_img">
+                    </div> <!-- title_img -->
+                    <div class="text">
+                        <p>My name is seojinLee</p>
+                        <p>Welcom to my portfolio</p>
+                    </div> <!-- .text end -->
+
+                    <div class="scroll">
+                        <p>scroll down</p>
+                        <img src="img/icon_cloud_blue.png" alt="">
+                    </div> <!-- .scroll end -->
+                </div> <!-- .inner end -->
+            </section> <!-- .main_title end -->
+
+            <section class="about">
+                <div class="inner">
+                    <div class="profile_wrap">
+                        <div class="profile_main">
+                            <h2 class="mobile section_title">About</h2>
+                            <h5>끝없이 넓은 하늘처럼<br />끊임없이 성장해나갈 웹디자이너 이서진입니다.</h5>
+                        </div> <!-- profile_main -->
+                        <div class="photo">
+                            <img src="img/profile.jpg" alt="profile">
+                            <a href="#" target='_blank'>
+                                <p>이력서 보기</p>
+                            </a>
+                        </div> <!-- .photo end -->
+
+                        <div class="my_profile">
+                            <div class="profile">
+                                <strong>Profile</strong>
+                                <img src="img/icon_cloud_blue.png" alt="cloud">
+                                <div class="box">
+                                    <p>Name</p>
+                                    <p>이서진 / Lee Seojin</p>
+                                </div> <!-- .box end -->
+                                <div class="box">
+                                    <p>Birth</p>
+                                    <p>1999.06.26</p>
+                                </div> <!-- .box end -->
+                                <div class="box">
+                                    <p>Phone</p>
+                                    <p>010.7175.9149</p>
+                                </div> <!-- .box end -->
+                                <div class="box">
+                                    <p>E-mail</p>
+                                    <p>mumang1999@gmail.com</p>
+                                </div> <!-- .box end -->
+                            </div> <!-- profile end -->
+
+                            <div class="education">
+                                <strong>Education</strong>
+                                <img src="img/icon_cloud_blue.png" alt="cloud">
+                                <div class="box">
+                                    <p>2023.08</p>
+                                    <p>경성대학교 도시공학과 졸업</p>
+                                </div> <!-- .box_edu end -->
+
+                                <div class="box">
+                                    <p>2023.11 ~ 2024.04</p>
+                                    <p>그린컴퓨터아트학원 UI/UX 반응형 웹디자인, 웹퍼블리셔 양성과정</p>
+                                </div> <!-- .box_edu end -->
+                            </div> <!-- .education end -->
+
+                            <div class="tool">
+                                <strong>Tool</strong>
+                                <img src="img/icon_cloud_blue.png" alt="cloud">
+                                <div class="tool_img">
+                                    <img src="img/icon_html.png" alt="html">
+                                    <img src="img/icon_css.png" alt="css">
+                                    <img src="img/icon_js.png" alt="js">
+                                    <img src="img/icon_jquery.png" alt="icon_jquery">
+                                    <img src="img/icon_photoshop.png" alt="photoshop">
+                                    <img src="img/icon_illustrator.png" alt="illustrator">
+                                    <img src="img/icon_figma.png" alt="figma">
+                                </div> <!-- tool_img end -->
+                            </div> <!-- .tool end -->
+                        </div> <!-- my_profile end -->
+                    </div> <!-- profile_wrap -->
+                </div> <!-- .inner end -->
+            </section> <!-- about end -->
+
+            <section class="redisign">
+                <div class="inner">
+                    <h2 class="mobile section_title">Web/App</h2>
+                        <h1 class="big_title">Web Redisign</h1>
+                        <img src="img/icon_cloud_blue.png" alt="cloud">
+
+                    
+                    <div class="swiper redisignSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide bluesquare">
+                                <div class="pc_mockup">
+                                    <img class="pc_up" src="img/Desktop-mockup.png" alt="mockup">
+                                    <div class="pc_img bluesquare_img">
+                                    </div> <!-- bluesquare_img end -->
+                                </div> <!-- pc_mockup -->
+
+
+                                <div class="mobile_mockup">
+                                    <img class="m_up" src="img/mobile_mockup.png" alt="mockup">
+                                    <div class="mobile_img bluesquare_m_img"></div>
+                                </div>
+
+
+                                <div class="info_text">
+                                    <h4>리디자인&반응형 홈페이지</h4>
+                                    <h2><span class="highlight1" >블루스퀘어</span></h2>
+                                    <h5>대중음악 및 뮤지컬 전용 공연장</h5>
+                                    <ul>
+                                        <li>
+                                            <span>PAGE</span>
+                                            <span>Main page</span>
+                                        </li>
+
+                                        <li>
+                                            <span>참여도</span>
+                                            <span>디자인, 퍼블리싱 100%</span>
+                                        </li>
+
+                                        <li>
+                                            <span>TOOL</span>
+                                            <span>HTML, CSS, SCSS, JQuery, Javascript,
+                                                <br />Photoshop, Figma, vscode</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="text_box">
+                                        <a href="#"target='_blank'><p>Process</p></a>
+                                        <a href="https://seojin0626.github.io/bluesquare/" target='_blank'><p>Web</p></a>
+                                    </div> <!-- .text_box end -->
+                                </div> <!-- .info_text end -->
+                            </div> <!-- bluesquare end -->
+
+                            <div class="swiper-slide samyang">
+                                <div class="pc_mockup">
+                                    <img class="pc_up" src="img/Desktop-mockup.png" alt="mockup">
+                                    <div class="pc_img samyang_img">
+                                    </div> <!-- bluesquare_img end -->
+                                </div> <!-- pc_mockup -->
+
+
+                                <div class="info_text">
+                                    <h4>리디자인</h4>
+                                    <h2><span class="highlight2" >삼양식품</span></h2>
+                                    <h5>한국 대표 식품 브랜드</h5>
+                                    <ul>
+                                        <li>
+                                            <span>PAGE</span>
+                                            <span>Main page</span>
+                                        </li>
+
+                                        <li>
+                                            <span>참여도</span>
+                                            <span>디자인, 퍼블리싱 100%</span>
+                                        </li>
+
+                                        <li>
+                                            <span>TOOL</span>
+                                            <span>HTML, CSS, Photoshop, Figma, vscode</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="text_box">
+                                        <a href="#" target='_blank'><p>Process</p></a>
+                                        <a href="https://seojin0626.github.io/samyangfoods/" target='_blank'><p>Web</p></a>
+                                    </div> <!-- .text_box end -->
+                                </div> <!-- .info_text end -->
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    
+                </div> <!-- .inner end -->
+            </section> <!-- redisign  -->
+
+            <section class="clone">
+                <div class="inner">
+                    <h1 class="big_title">Web Coding</h1>
+                        <img src="img/icon_cloud_blue.png" alt="cloud">
+                    <div class="swiper cloneSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide winia">
+                                <div class="pc_mockup">
+                                    <img class="pc_up" src="img/Desktop-mockup.png" alt="mockup">
+                                    <div class="pc_img winia_img">
+                                    </div> <!-- bluesquare_img end -->
+                                </div> <!-- pc_mockup -->
+
+                                <div class="info_text">
+                                    <h4>클론코딩</h4>
+                                    <h2><span class="highlight3" >위니아</span></h2>
+                                    <h5>가전제품 판매 사이트</h5>
+                                    <ul>
+                                        <li>
+                                            <span>PAGE</span>
+                                            <span>Main page</span>
+                                        </li>
+
+                                        <li>
+                                            <span>참여도</span>
+                                            <span>퍼블리싱 100%</span>
+                                        </li>
+
+                                        <li>
+                                            <span>TOOL</span>
+                                            <span>HTML, CSS, vscode</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="text_box">
+                                        <a href="#" target='_blank'><p>Web</p></a>
+                                    </div> <!-- .text_box end -->
+                                </div> <!-- .info_text end -->
+                            </div> <!-- bluesquare end -->
+
+                            <div class="swiper-slide kakao">
+                                <div class="pc_mockup">
+                                    <img class="pc_up" src="img/Desktop-mockup.png" alt="mockup">
+                                    <div class="pc_img kakao_img">
+                                    </div> <!-- bluesquare_img end -->
+                                </div> <!-- pc_mockup -->
+
+
+                                <div class="info_text">
+                                    <h4>클론코딩</h4>
+                                    <h2><span class="highlight4" >카카오뱅크</span></h2>
+                                    <h5>인터넷 전문 은행</h5>
+                                    <ul>
+                                        <li>
+                                            <span>PAGE</span>
+                                            <span>Main page</span>
+                                        </li>
+
+                                        <li>
+                                            <span>참여도</span>
+                                            <span>퍼블리싱 100%</span>
+                                        </li>
+
+                                        <li>
+                                            <span>TOOL</span>
+                                            <span>HTML, CSS, vscode</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="text_box">
+                                        <a href="#" target='_blank'><p>Web</p></a>
+                                    </div> <!-- .text_box end -->
+                                </div> <!-- .info_text end -->
+                            </div>
+
+                            <div class="swiper-slide f5nature">
+                                <div class="pc_mockup">
+                                    <img class="pc_up" src="img/Desktop-mockup.png" alt="mockup">
+                                    <div class="pc_img f5nature_img">
+                                    </div> <!-- bluesquare_img end -->
+                                </div> <!-- pc_mockup -->
+
+                                
+                                <div class="mobile_mockup">
+                                    <img class="m_up" src="img/mobile_mockup.png" alt="mockup">
+                                    <div class="mobile_img f5nature_m_img"></div>
+                                </div>
+
+
+                                <div class="info_text">
+                                    <h4>반응형 코딩</h4>
+                                    <h2><span class="highlight5" >F5NATURE</span></h2>
+                                    <h5>소품샵</h5>
+                                    <ul>
+                                        <li>
+                                            <span>PAGE</span>
+                                            <span>Main page</span>
+                                        </li>
+
+                                        <li>
+                                            <span>참여도</span>
+                                            <span>퍼블리싱 100%</span>
+                                        </li>
+
+                                        <li>
+                                            <span>TOOL</span>
+                                            <span>HTML, CSS, vscode</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="text_box">
+                                        <a href="#" target='_blank'><p>Web</p></a>
+                                    </div> <!-- .text_box end -->
+                                </div> <!-- .info_text end -->
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+        </main> <!-- .main end -->
+    </div> <!-- #wrap end -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".redisignSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+<script>
+    var swiper = new Swiper(".cloneSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
 </body>
+
 </html>
