@@ -9,17 +9,17 @@
   font-family: "Pretendard";
   font-weight: 500;
   font-display: swap;
-  src: local("Pretendard Medium"), url(font/Pretendard-Medium.woff2) format("woff2"), url(font/Pretendard-Medium.woff) format("woff");
+  src: local("Pretendard Medium"), url(../css/font/Pretendard-Medium.woff2) format("woff2"), url(../css/font/Pretendard-Medium.woff) format("woff");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 400;
   font-display: swap;
-  src: local("Pretendard Regular"), url(font/Pretendard-Regular.woff2) format("woff2"), url(font/Pretendard-Regular.woff) format("woff");
+  src: local("Pretendard Regular"), url(../css/font/Pretendard-Regular.woff2) format("woff2"), url(../css/font/Pretendard-Regular.woff) format("woff");
 }
 @font-face {
   font-family: "Lora";
-  src: url("Lora-Regular.woff2") format("woff2"), url("Lora-Regular.woff") format("woff");
+  src: url(../css/font/Lora-Regular.woff2) format("woff2"), url(../css/font/Lora-Regular.woff) format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
