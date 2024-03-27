@@ -1253,7 +1253,8 @@ html, body {
 }
 .graphic .inner .list_wrap .list .item {
   width: calc(25% - 24px);
-  height: 339px;
+  max-height: 336px;
+  height: 35vh;
 }
 .graphic .inner .list_wrap .list .item img {
   width: 100%;
