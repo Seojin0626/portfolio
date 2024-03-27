@@ -19,8 +19,8 @@
 	font-display: swap;
 	src:
 		local("Pretendard Medium"),
-		url(../css/font/Pretendard-Medium.woff2) format("woff2"),
-		url(../css/font/Pretendard-Medium.woff) format("woff");
+		url(font/Pretendard-Medium.woff2) format("woff2"),
+		url(font/Pretendard-Medium.woff) format("woff");
 }
 
 @font-face {
@@ -29,14 +29,14 @@
 	font-display: swap;
 	src:
 		local("Pretendard Regular"),
-		url(../css/font/Pretendard-Regular.woff2) format("woff2"),
-		url(../css/font/Pretendard-Regular.woff) format("woff");
+		url(font/Pretendard-Regular.woff2) format("woff2"),
+		url(font/Pretendard-Regular.woff) format("woff");
 }
 
 @font-face {
     font-family: 'Lora';
-    src: url(../css/font/Lora-Regular.woff2) format('woff2'),
-        url(../css/font/Lora-Regular.woff) format('woff');
+    src: url(font/Lora-Regular.woff2) format('woff2'),
+        url(font/Lora-Regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
