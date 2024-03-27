@@ -9,8 +9,8 @@
 	font-display: swap;
 	src:
 		local("Pretendard SemiBold"),
-		url() format("woff2"),
-		url(../css/font/Pretendard-SemiBold.woff) format("woff");
+		url(font/Pretendard-SemiBold.woff2) format("woff2"),
+		url(font/Pretendard-SemiBold.woff) format("woff");
 }
 
 @font-face {
