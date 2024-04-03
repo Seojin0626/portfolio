@@ -57,7 +57,7 @@ body {
     font-family: "Pretendard";
     line-height: 1;
     color: #333;
-	min-width: 1920px;
+	min-width: 1440px;
 }
 
 html, body {
@@ -378,6 +378,13 @@ html, body {
 
 							} /* .bluesquare_img end */
 
+							.krispy_img {
+								background-image: url(../img/krispy_pc.png);
+							background-position: top center;
+     						background-size: cover;
+    						background-repeat: no-repeat;
+							}
+
 							.samyang_img {
 							background-image: url(../img/samyang_main.jpg);
 							background-position: top center;
@@ -414,6 +421,13 @@ html, body {
      							background-size: cover;
     							background-repeat: no-repeat;
 							} /* .bluesquare_m_img end */
+
+							.krispy_m_img {
+								background-image: url(../img/krispy_mobile.png);
+								background-position: top center;
+     							background-size: cover;
+    							background-repeat: no-repeat;
+							}
 						} /* mobile_mockup end */
 
 						.info_text {
@@ -494,6 +508,26 @@ html, body {
 							transition: 0.5s all;
 							}
 
+							h2:hover .highlight8:after{
+								width:100%;
+								}
+								.highlight1{
+								display: inline-block; 
+								position: relative;
+								}
+								.highlight1:after{
+								content:"";
+								width: 0;
+								height: 60px;
+								display: inline-block;
+								background: #0a8332;
+								position: absolute;
+								bottom:0;
+								left:0;
+								z-index:-1;
+								transition: 0.5s all;
+								}
+
 							h2:hover .highlight2:after{
 								width:100%;
 								}
@@ -552,6 +586,43 @@ html, body {
 								background-position: 0 0;
 							}
 						} /* blusquare_m end */
+						
+						.krispy_img:hover {
+							animation: krispy 13s infinite ease-in-out;
+						}
+
+						@keyframes krispy{
+							0% {
+								background-position: 0 0;
+							}
+			
+							50% {
+								background-position: 0 -1100px;
+							}
+			
+							100% {
+								background-position: 0 0;
+							}
+						}
+
+						.krispy_m_img:hover {
+							animation: krispy_m 13s infinite ease-in-out;
+						}
+
+						@keyframes krispy_m{
+							0% {
+								background-position: 0 0;
+							}
+			
+							50% {
+								background-position: 0 -1350px;
+							}
+			
+							100% {
+								background-position: 0 0;
+							}
+						} /* blusquare_m end */
+
 
 						.samyang_img:hover {
 							animation: samyang 13s infinite ease-in-out;

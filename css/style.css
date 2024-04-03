@@ -37,6 +37,7 @@ body {
   font-family: "Pretendard";
   line-height: 1;
   color: #333;
+  min-width: 1440px;
 }
 
 html, body {
@@ -352,6 +353,7 @@ html, body {
   /* mobile_mockup end */
   /* .info_text end */
   /* blusquare_m end */
+  /* blusquare_m end */
   /* samyang end */
 }
 .redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .pc_mockup {
@@ -370,6 +372,12 @@ html, body {
 }
 .redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .pc_mockup .bluesquare_img {
   background-image: url(../img/bluesquare_pc.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .pc_mockup .krispy_img {
+  background-image: url(../img/krispy_pc.png);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -405,6 +413,12 @@ html, body {
 }
 .redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .mobile_mockup .bluesquare_m_img {
   background-image: url(../img/bluesquare_mobile.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .mobile_mockup .krispy_m_img {
+  background-image: url(../img/krispy_mobile.png);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -482,6 +496,25 @@ html, body {
   z-index: -1;
   transition: 0.5s all;
 }
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text h2:hover .highlight8:after {
+  width: 100%;
+}
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text .highlight1 {
+  display: inline-block;
+  position: relative;
+}
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text .highlight1:after {
+  content: "";
+  width: 0;
+  height: 60px;
+  display: inline-block;
+  background: #0a8332;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s all;
+}
 .redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text h2:hover .highlight2:after {
   width: 100%;
 }
@@ -524,6 +557,34 @@ html, body {
   }
   50% {
     background-position: 0 -1185px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .krispy_img:hover {
+  animation: krispy 13s infinite ease-in-out;
+}
+@keyframes krispy {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 -1100px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .krispy_m_img:hover {
+  animation: krispy_m 13s infinite ease-in-out;
+}
+@keyframes krispy_m {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 -1350px;
   }
   100% {
     background-position: 0 0;
