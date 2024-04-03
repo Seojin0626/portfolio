@@ -499,11 +499,11 @@ html, body {
 .redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text h2:hover .highlight8:after {
   width: 100%;
 }
-.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text .highlight1 {
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text .highlight8 {
   display: inline-block;
   position: relative;
 }
-.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text .highlight1:after {
+.redesign .inner .redesignSwiper .swiper-wrapper .swiper-slide .info_text .highlight8:after {
   content: "";
   width: 0;
   height: 60px;
